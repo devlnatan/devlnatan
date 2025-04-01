@@ -58,36 +58,3 @@ I'm a passionate Front-End Developer focused on creating beautiful and functiona
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random dev quote" />
 </div>
 
-<style>
-  body {
-    background-color: black;
-    margin: 0;
-    overflow: hidden;
-  }
-
-  .container {
-    width: 100vw;
-    height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(20, 1fr);
-    grid-template-rows: repeat(10, 1fr);
-  }
-
-  .cell {
-    width: 100%;
-    height: 100%;
-    transition: background 0.3s ease;
-  }
-
-  .cell:hover {
-    background: radial-gradient(circle, #38B2AC, transparent);
-  }
-</style>
-
-<div class="container">
-  <div class="cell"></div>
-  <div class="cell"></div>
-  <div class="cell"></div>
-  <!-- Adicione mais divs se quiser -->
-</div>
-
