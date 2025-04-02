@@ -58,3 +58,65 @@ I'm a passionate Front-End Developer focused on creating beautiful and functiona
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random dev quote" />
 </div>
 
+---
+
+## 🕹️ Café Game - O que deseja pedir?
+
+<div class="container" align="center">
+    <h2>Você está em um café, o que deseja pedir?</h2>
+    <input type="radio" id="coffee" name="order">
+    <label for="coffee">☕ Café</label>
+  
+    <input type="radio" id="tea" name="order">
+    <label for="tea">🍵 Chá</label>
+  
+    <input type="radio" id="croissant" name="order">
+    <label for="croissant">🥐 Croissant</label>
+  
+    <div class="response coffee-response">Ótima escolha! Um café bem quente chegando! ☕</div>
+    <div class="response tea-response">Que refinado! Um chá especial para você. 🍵</div>
+    <div class="response croissant-response">Delicioso! Um croissant crocante saindo do forno. 🥐</div>
+</div>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background-color: #f4f1ea;
+        padding: 20px;
+    }
+    .container {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        display: inline-block;
+    }
+    input {
+        display: none;
+    }
+    label {
+        display: block;
+        background: #8b5e3c;
+        color: white;
+        padding: 10px;
+        margin: 10px auto;
+        width: 200px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    label:hover {
+        background: #a06a42;
+    }
+    .response {
+        display: none;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    #coffee:checked ~ .coffee-response,
+    #tea:checked ~ .tea-response,
+    #croissant:checked ~ .croissant-response {
+        display: block;
+    }
+</style>
+
