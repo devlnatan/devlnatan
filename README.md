@@ -57,26 +57,3 @@ I'm a passionate Front-End Developer focused on creating beautiful and functiona
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random dev quote" />
 </div>
-
----
-
-<h3>🕹️ Café Game - O que deseja pedir?</h3>
-
-<h4>Você está em um café, o que deseja pedir?</h4>
-
-<p>
-  <input type="radio" id="coffee" name="order" disabled>
-  <label for="coffee">☕ Café</label>
-</p>
-
-<p>
-  <input type="radio" id="tea" name="order" disabled>
-  <label for="tea">🍵 Chá</label>
-</p>
-
-<p>
-  <input type="radio" id="croissant" name="order" disabled>
-  <label for="croissant">🥐 Croissant</label>
-</p>
-
-<p>Escolha uma opção acima!</p>
